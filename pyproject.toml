@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pace-vlm"
+version = "0.1.0"
+description = "PACE: A Unified Condense-and-Extract Paradigm for Fast VLM Inference"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+authors = [
+  {name = "Junjie Liu"},
+  {name = "Shengyuan Ye"},
+  {name = "Xu Chen"},
+]
+dependencies = [
+  "accelerate>=1.0",
+  "lmms-eval>=0.5.0",
+  "loguru>=0.7",
+  "numpy>=1.26",
+  "pillow>=10.0",
+  "qwen-vl-utils>=0.0.14",
+  "torch>=2.1",
+  "transformers>=4.49,<5",
+]
+
+[project.optional-dependencies]
+test = ["ruff>=0.9"]
+
+[tool.setuptools.packages.find]
+include = ["pace_vlm*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

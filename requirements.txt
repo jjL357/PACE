@@ -1,0 +1,12 @@
+# Versions used for the camera-ready reproduction environment.
+accelerate==1.12.0
+datasets==4.5.0
+decord==0.6.0
+flash-attn==2.8.3
+lmms-eval @ git+https://github.com/EvolvingLMMs-Lab/lmms-eval.git@ed55078e
+numpy==2.2.6
+pillow==12.1.0
+qwen-vl-utils==0.0.14
+torch==2.10.0
+torchvision==0.25.0
+transformers==4.57.6

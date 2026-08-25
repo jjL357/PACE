@@ -1,0 +1,6 @@
+PACE includes a modified Qwen2.5-VL modeling implementation derived from
+Hugging Face Transformers and the Qwen team. The original copyright and
+Apache-2.0 license notice are retained in the source file.
+
+The evaluation adapter integrates with lmms-eval, distributed separately
+under its own license.

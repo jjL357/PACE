@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "PACE: A Unified Condense-and-Extract Paradigm for Fast VLM Inference"
+message: "If you use PACE, please cite this work."
+type: software
+authors:
+  - family-names: Liu
+    given-names: Junjie
+  - family-names: Ye
+    given-names: Shengyuan
+  - family-names: Chen
+    given-names: Xu
+version: 0.1.0
+date-released: 2026-08-25
+license: Apache-2.0
