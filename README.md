@@ -52,7 +52,7 @@ PACE/
 
 ## Acknowledgements
 
-We thank the authors of [Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL), [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval), [VisionZip](https://github.com/dvlab-research/VisionZip), and [MMTok](hhttps://github.com/Ironieser/MMTok) for their open-source models, evaluation tools, and visual-token compression baselines.
+We thank the authors of [Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL), [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval), [VisionZip](https://github.com/dvlab-research/VisionZip), and [MMTok](https://github.com/Ironieser/MMTok) for their open-source models, evaluation tools, and visual-token compression baselines.
 
 ## License
 
