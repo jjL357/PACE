@@ -35,8 +35,8 @@ SETTING=fixed TOKEN_BUDGET=0.10 bash scripts/evaluate.sh
 PACE/
 ├── pace_vlm/models/          # APC, DDAE, lmms-eval plugin
 ├── scripts/                  # reproduce / evaluate
-├── tests/                    # APC unit tests
-├── docs/reproduction.md      # seeds and reference scores
+├── tests/                    
+├── docs/reproduction.md      
 └── requirements.txt
 ```
 
