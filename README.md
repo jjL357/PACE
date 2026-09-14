@@ -15,7 +15,6 @@ conda create -n pace python=3.10 -y
 conda activate pace
 git clone https://github.com/jjL357/PACE.git
 cd PACE
-pip install -e .
 pip install -r requirements.txt
 ```
 
